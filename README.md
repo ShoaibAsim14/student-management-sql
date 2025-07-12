@@ -1,19 +1,51 @@
-# student-management-sql
-MySQL database project for tracking student performance
-# Student Management System (SQL Project)
+ Student Management System - SQL Project
 
-A MySQL database to track and analyze student performance.
+![MySQL](https://img.shields.io/badge/MySQL-8.0+-blue?logo=mysql)
+![GitHub](https://img.shields.io/github/license/ShoaibAsim14/student-management-sql)
 
-## Features
-- Database & table creation with constraints  
-- Sample data insertion (10+ records)  
-- Analytical queries (averages, top performers, gender trends)  
+A comprehensive MySQL database solution for tracking and analyzing student academic performance.
 
-## Key Insights
-- Female students outperformed males in all subjects.  
-- Math had the highest average score (84.3).  
+Features
 
-## How to Use
-1. Run `student_management.sql` in MySQL Workbench.  
-2. Execute queries to explore data.
-3. 
+- Database Schema: Clean table structure with constraints
+- Sample Data: 10 realistic student records
+- Advanced Queries:
+  - Performance analysis by subject/gender
+  - Top performer identification
+  - Grade distribution statistics
+- Dynamic Updates: Modify student records easily
+
+Database Schema
+
+CREATE TABLE Students (
+    StudentID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    Gender VARCHAR(1) CHECK (Gender IN ('M', 'F')),
+    Age INT,
+    Grade VARCHAR(10),
+    MathScore INT,
+    ScienceScore INT,
+    EnglishScore INT
+);## 📸 Screenshots
+
+### Database Schema
+![Database Schema](/images/schema.png)
+
+### Query Results
+![Top Performers](/images/top_performers.png)
+![Gender Analysis](/images/gender_analysis.png)
+
+ License
+
+MIT License
+
+Copyright (c) 2025 Shoaib Asim
+
+Permission is hereby granted...
+
+ Author
+
+Shoaib Asim
+- 📧 Email: your-shoaibasim789@gmail.com  
+- 💼 LinkedIn: [linkedin.com/in/yourprofile] 
+(https://www.linkedin.com/in/shoaib-asim-82112927b)
