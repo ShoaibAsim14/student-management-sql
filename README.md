@@ -46,6 +46,6 @@ Permission is hereby granted...
  Author
 
 Shoaib Asim
-- 📧 Email: your-shoaibasim789@gmail.com  
+- 📧 Email: shoaibasim789@gmail.com  
 - 💼 LinkedIn: [linkedin.com/in/yourprofile] 
 (https://www.linkedin.com/in/shoaib-asim-82112927b)
